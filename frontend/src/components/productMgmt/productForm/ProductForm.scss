@@ -1,0 +1,72 @@
+.add-product {
+    margin-bottom: 5rem;
+    .card {
+      width: 100%;
+      max-width: 900px;
+      padding: 4rem;
+      background:linear-gradient(to right, rgba(240, 246, 252, 0.568), rgba(35, 116, 105, 0.767));
+    }
+    form {
+      label {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: brown;
+      }
+      input[type="text"],
+      input[type="number"],
+      input[type="file"],
+      input[type="email"],
+      select,
+      input[type="password"] {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1rem;
+        margin: 1rem auto;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+        background: rgb(255, 255, 255);
+        outline: none;
+        color: rgba(31, 26, 26, 0.801);
+      }
+    }
+  }
+  
+  .group {
+    border: 9px solid darkblue;
+    padding: 5px;
+    border: none;
+    margin-bottom: 1.4rem;
+    border: 2px solid brown;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 100%;
+    max-height: 280px;
+    background: var(--dark-blue);
+    padding: 1rem;
+    border-radius: 3px;
+    overflow: hidden;
+    // display: none;
+    transition: all 0.3s;
+  }
+  
+  .image-preview img {
+    width: 100%;
+  }
+  
+  .image-show {
+    display: block;
+  }
+  .code{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: brown;
+  }
+
+  .prodDescription{
+    border: 1px solid black;
+  }
